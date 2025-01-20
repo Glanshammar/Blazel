@@ -1,0 +1,6 @@
+@Blazel.API_HostAddress = http://localhost:5198
+
+GET {{Blazel.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
