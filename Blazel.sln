@@ -3,6 +3,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazel.API", "Blazel.API\Bl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazel.WebApp", "Blazel.WebApp\Blazel.WebApp.csproj", "{7A44651B-F4E5-47FC-ABC6-B1EF6D2ADB98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazel.Plugins", "Blazel.Plugins\Blazel.Plugins.csproj", "{F81BD9D5-3897-489E-B0DF-EE445784C67D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +19,9 @@ Global
 		{7A44651B-F4E5-47FC-ABC6-B1EF6D2ADB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A44651B-F4E5-47FC-ABC6-B1EF6D2ADB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A44651B-F4E5-47FC-ABC6-B1EF6D2ADB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81BD9D5-3897-489E-B0DF-EE445784C67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81BD9D5-3897-489E-B0DF-EE445784C67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81BD9D5-3897-489E-B0DF-EE445784C67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81BD9D5-3897-489E-B0DF-EE445784C67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
