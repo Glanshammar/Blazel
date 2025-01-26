@@ -4,12 +4,12 @@
 Blazel CMS is an open-source, feature-rich web content management system built using Blazor, designed to provide developers and content creators with a powerful, flexible platform for building and managing websites.
 
 # Key Features
-🚀 Modern Web Technology: Developed with Blazor for high-performance, component-based web applications
-🔌 Modular Plugin Architecture: Easily extend functionality through a robust plugin system
-🔒 Advanced Security: Comprehensive user role management and authentication
-📱 Responsive Design: Fully responsive and mobile-friendly interface
-🌐 Multilingual Support: Create and manage content in multiple languages
-🔍 SEO Optimization: Built-in tools to enhance search engine visibility
+* 🚀 Modern Web Technology: Developed with Blazor for high-performance, component-based web applications
+* 🔌 Modular Plugin Architecture: Easily extend functionality through a robust plugin system
+* 🔒 Advanced Security: Comprehensive user role management and authentication
+* 📱 Responsive Design: Fully responsive and mobile-friendly interface
+* 🌐 Multilingual Support: Create and manage content in multiple languages
+* 🔍 SEO Optimization: Built-in tools to enhance search engine visibility
 
 # License
 This project is licensed under the GNU General Public License version 3.0 or later (GPL-3.0-or-later). This means you are free to use, modify, and distribute this software, provided that all copies and substantial portions of the software include the same license.
