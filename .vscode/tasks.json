@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-api",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/Blazel.API/Blazel.API.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-wasm",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/Blazel.WASM/Blazel.WASM.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-webapp",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/Blazel.WebApp/Blazel.WebApp.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-compound",
+            "dependsOn": ["build-api", "build-webapp"]
+        }
+    ]
+}
