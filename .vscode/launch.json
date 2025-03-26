@@ -1,0 +1,44 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Blazel API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Blazel.API/bin/Debug/net9.0/Blazel.API",
+            "args": [],
+            "cwd": "${workspaceFolder}/Blazel.API",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Blazel WASM",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Blazel.WASM/bin/Debug/net9.0/Blazel.WASM",
+            "args": [],
+            "cwd": "${workspaceFolder}/Blazel.WASM",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Blazel WebApp",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Blazel.WebApp/bin/Debug/net9.0/Blazel.WebApp",
+            "args": [],
+            "cwd": "${workspaceFolder}/Blazel.WebApp",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+    ],
+    "compounds": [
+        {
+            "name": "WebApp + API",
+            "configurations": ["Blazel WebApp", "Blazel API"]
+        }
+    ]
+}
